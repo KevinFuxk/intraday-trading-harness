@@ -1,0 +1,9 @@
+[project]
+name = "intraday-trading-harness"
+version = "1.0.0"
+description = "Infrastructure for running intraday strategies on Interactive Brokers: pre-armed brackets, broker-truth state, own-book accounting, replay, and reconciliation."
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

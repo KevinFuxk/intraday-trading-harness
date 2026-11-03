@@ -1,0 +1,4 @@
+# The engine, replay, ledger and tests are pure standard library.
+# ib_async is needed only to talk to Interactive Brokers (run_live, cache_bars, real_ledger, flatten_leftovers).
+ib_async>=2.0
+pytest>=7.0

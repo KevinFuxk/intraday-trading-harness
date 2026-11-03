@@ -1,0 +1,11 @@
+# runtime outputs — never committed (account data stays on the machine that produced it)
+data/
+cache/
+logs/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+.DS_Store
+.idea/
+.vscode/
